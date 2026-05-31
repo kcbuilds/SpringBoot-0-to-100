@@ -28,8 +28,6 @@ public class SpringIntroductionApplication implements CommandLineRunner {
     public void run(String... args) throws Exception {
 //        paymentService.payment(2000.0);
 
-//        NotificationService notificationService = new SmsNotification();
-
         notificationService.sendNotification("Sure");
     }
 }
